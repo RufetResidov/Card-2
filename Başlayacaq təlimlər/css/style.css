@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#training {
+  padding: 2rem 0;
+}
+
+.single-course-inner:hover .thumb img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.single-course-inner {
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 30px;
+  background: #fff;
+  border: 1px solid #cfd9e0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.single-course-inner .thumb {
+  overflow: hidden;
+}
+
+.single-course-inner .thumb img {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.single-course-inner .thumb .cat-area {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.single-course-inner .thumb .cat-area .cat {
+  border: 0;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #FF7004;
+}
+
+.single-course-inner .details {
+  position: relative;
+  padding: 25px;
+  height: 120px;
+}
+
+.single-course-inner .details .price {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: red;
+  font-weight: 600;
+  position: absolute;
+  right: 25px;
+  top: -26px;
+}
+
+.single-course-inner .details .price1 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background: #11cf3d;
+  font-weight: 600;
+  position: absolute;
+  right: 90px;
+  top: -26px;
+}
+
+.single-course-inner .details .details-inner h5 {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.single-course-inner .details .details-inner h5 a {
+  color: #001b61;
+}
+
+.single-course-inner .details .details-inner .training-date {
+  margin: 1rem 0;
+  font-size: 1.15rem;
+  color: #FF7004;
+  font-weight: 600;
+  text-align: end;
+  display: block;
+  position: relative;
+  border-left: 1px solid #FF7004;
+  border-top: 1px solid #FF7004;
+  border-radius: 4px;
+  padding: 7px 10px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+}
+/*# sourceMappingURL=style.css.map */
